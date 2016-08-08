@@ -1,0 +1,33 @@
+.profile_area
+  box-sizing: border-box
+  background-color: gray
+  position: fixed
+  left: 0px
+  top: 0px
+  height: 52px
+  display: inline-block
+  padding: 6px
+  border: none
+  color: #E3DA78
+  &:hover
+    background-color: lighten(gray, 30)
+    color: darken(#E3DA78, 60)
+
+.profile_area.current
+    background-color: lighten(gray, 30)
+    color: darken(#E3DA78, 60)
+
+.profile_picture
+  width: 40px
+  height: 40px
+  margin-right: 8px
+
+
+.profile_greeting
+  position: relative
+  bottom: 12px
+  display: inline-block
+  height: 40px
+  font-size: 22px
+  font-weight: bold
+  text-align: center
